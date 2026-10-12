@@ -1,0 +1,1 @@
+"use client"; import {motion} from "framer-motion"; export default function Hero(){return <div className="min-h-screen p-10 bg-gradient-to-br from-white to-blue-100"><motion.h1 initial={{opacity:0}} animate={{opacity:1}} className="text-6xl font-bold">Shopping designed around you</motion.h1><input className="border p-3 mt-4" placeholder="Search products"/></div>}

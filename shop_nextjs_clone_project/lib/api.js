@@ -1,0 +1,1 @@
+export async function getProducts(){return fetch("https://dummyjson.com/products").then(r=>r.json())}
